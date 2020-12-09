@@ -1,0 +1,10 @@
+<component>
+    name = "csi"
+    category = ModulePart
+    LocalRoot = "OemPkg\csi\"
+    RefName = "OemPkg.csi"
+[INF]
+"csi.inf"
+[files]
+"csi.sdl"	
+<endComponent>

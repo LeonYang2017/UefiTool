@@ -1,0 +1,19 @@
+TOKEN
+    Name  = "CSI_INF_SUPPORT"
+    Value  = "1"
+    Help  = "Main switch to enable CSI support in Project"
+    TokenType = Boolean
+    TargetEQU = Yes
+    TargetMAK = Yes
+    Master = Yes
+End
+
+INFComponent
+  Name  = "CSI"
+  File  = "CSI.inf"
+  Package  = "OemPkg"
+  Arch  = "IA32 X64"
+  ModuleTypes  = "UEFI_APPLICATION"
+  Token = "CHIPSET_VENDOR" "=" "0"
+  Token = "AMI_FSP_BIN_SUPPORT" "=" "0"
+End
